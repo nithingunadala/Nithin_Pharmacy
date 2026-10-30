@@ -1,0 +1,10 @@
+body { background: #f4f7f6; }
+.sidebar { width: 230px; min-height: 100vh; background: #0b6e4f; }
+.sidebar .nav-link { color: #d7f0e6; border-radius: 6px; cursor: pointer; }
+.sidebar .nav-link:hover, .sidebar .nav-link.active { background: #095a41; color: #fff; }
+.stat-card { border: 0; border-left: 5px solid; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+.login-wrap { min-height: 100vh; background: linear-gradient(135deg, #0b6e4f, #3aa17e); }
+@media print {
+  .sidebar, .no-print { display: none !important; }
+  body { background: #fff; }
+}
